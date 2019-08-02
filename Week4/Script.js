@@ -75,7 +75,6 @@ let lessThenTwoHours = tasks.filter(compare => {
 })
 console.log("-3", lessThenTwoHours)
 
-
 //-4
 let billOfMaartje = 0
 let MaartjeTakePerHour = 18
@@ -83,6 +82,7 @@ tasks.map(bill => {
     billOfMaartje += MaartjeTakePerHour * bill.duration
 })
 console.log("-4", billOfMaartje, "€")
+// good job
 
 
 
